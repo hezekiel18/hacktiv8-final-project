@@ -11736,4 +11736,8 @@ html {
     width: 1.5vw;
     left: -2vw;
   }
+  .bg-image-section {
+    background: url('https://dji-official-fe.djicdn.com/cms/uploads/a9b0636a0208b6467b18abcf6f8bb06d.jpg') center/cover;
+    color: white;
+  }
 }
