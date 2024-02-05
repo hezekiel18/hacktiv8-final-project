@@ -8193,6 +8193,11 @@ textarea.form-control-lg {
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-center {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-success {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
@@ -11730,5 +11735,9 @@ html {
   .profile .dots-4 {
     width: 1.5vw;
     left: -2vw;
+  }
+  .bg-image-section {
+    background: url('https://dji-official-fe.djicdn.com/cms/uploads/a9b0636a0208b6467b18abcf6f8bb06d.jpg') center/cover;
+    color: white;
   }
 }
