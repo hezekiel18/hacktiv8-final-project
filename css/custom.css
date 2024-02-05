@@ -1,7 +1,8 @@
 .custom-input {
   border: none;
   border-radius: 0;
-  border-bottom: 1px solid #ced4da; /* Set your desired underline color */
+  border-bottom: 1px solid #ced4da;
+  /* Set your desired underline color */
   box-shadow: none;
 }
 
@@ -12,8 +13,7 @@
 }
 
 .header {
-  background: url("https://dji-official-fe.djicdn.com/cms/uploads/a9b0636a0208b6467b18abcf6f8bb06d.jpg")
-    center/cover;
+  background: url("https://dji-official-fe.djicdn.com/cms/uploads/a9b0636a0208b6467b18abcf6f8bb06d.jpg") center/cover;
   height: 400px;
   display: flex;
   align-items: center;
@@ -38,13 +38,12 @@
 .contact-info {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .contact-item {
   text-align: center;
-  margin-right: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .contact-item i {
@@ -53,5 +52,14 @@
 }
 
 .contact-container {
-  width: 100%;
+  width: 50%;
+}
+
+.map-container {
+  width: 50%;
+}
+
+/* Override the default Bootstrap container width */
+.container {
+  max-width: 100%;
 }
