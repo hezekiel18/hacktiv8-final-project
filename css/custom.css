@@ -1,0 +1,12 @@
+.custom-input {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #ced4da; /* Set your desired underline color */
+  box-shadow: none;
+}
+
+/* Optional: Add padding to give some space between the text and the underline */
+.custom-input:focus {
+  box-shadow: none;
+  border-color: #ced4da;
+}
